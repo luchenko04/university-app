@@ -221,3 +221,32 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2025-05-27 09:29:43 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-05-27 09:29:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-05-27 09:29:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-27 09:45:22 INFO  c.e.u.UniversityAppApplication - Starting UniversityAppApplication using Java 22.0.1 with PID 17080 (D:\UNIVERSITY\JavaProjects\university\UniversityApp\target\classes started by zin04 in D:\UNIVERSITY\JavaProjects\university\UniversityApp)
+2025-05-27 09:45:22 INFO  c.e.u.UniversityAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-27 09:45:22 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-27 09:45:22 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-27 09:45:23 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-27 09:45:23 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 4 JPA repository interfaces.
+2025-05-27 09:45:23 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-27 09:45:23 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1108 ms
+2025-05-27 09:45:23 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-27 09:45:24 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-05-27 09:45:24 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-27 09:45:24 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-27 09:45:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-27 09:45:24 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6215fada
+2025-05-27 09:45:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-27 09:45:24 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-27 09:45:25 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-27 09:45:25 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27 09:45:25 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-27 09:45:25 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-05-27 09:45:25 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2055b476, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58b5fc30, org.springframework.security.web.context.SecurityContextHolderFilter@431eb364, org.springframework.security.web.header.HeaderWriterFilter@151b6116, org.springframework.web.filter.CorsFilter@26876862, org.springframework.security.web.authentication.logout.LogoutFilter@2fc87689, com.example.universityapp.security.JwtAuthenticationFilter@7b084c2b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7d106b97, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49de23b8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71e3ef78, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a5be50b, org.springframework.security.web.session.SessionManagementFilter@713ab2d1, org.springframework.security.web.access.ExceptionTranslationFilter@555f9a75, org.springframework.security.web.access.intercept.AuthorizationFilter@183c1498]
+2025-05-27 09:45:26 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-27 09:45:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-27 09:45:26 INFO  c.e.u.UniversityAppApplication - Started UniversityAppApplication in 3.799 seconds (process running for 4.422)
+2025-05-27 09:45:30 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-27 09:45:30 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-27 09:49:43 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27 09:49:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-27 09:49:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
