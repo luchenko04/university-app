@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
+    <meta charset="UTF-8">
     <title>Home</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 min-h-screen flex items-center justify-center">
-<div class="container mx-auto p-6">
-    <div class="bg-white rounded-lg shadow-lg p-8 max-w-lg mx-auto">
-        <h1 class="text-3xl font-bold text-gray-800 mb-4">
-            Welcome, <span th:text="${username}" class="text-indigo-600">Guest</span>!
-        </h1>
-        <p class="text-gray-600 mb-6">You have successfully logged in to the University App.</p>
-        <div class="space-y-4">
-            <a href="/logout" class="block text-indigo-600 hover:underline font-medium">Logout</a>
-        </div>
-    </div>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+<div class="bg-white p-8 rounded shadow-md w-full max-w-md">
+    <h2 class="text-2xl font-bold mb-6 text-center">
+        Welcome, <span th:text="${username}" class="text-indigo-600">Guest</span>!
+    </h2>
+    <a th:href="@{/logout}" class="w-full bg-indigo-600 text-white p-2 rounded hover:bg-indigo-700 text-center block">Logout</a>
 </div>
 </body>
 </html>

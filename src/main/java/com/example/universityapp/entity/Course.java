@@ -1,5 +1,6 @@
 package com.example.universityapp.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -7,14 +8,17 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Course {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @JsonProperty("name")
     private String title;
-    private Integer credits;
 
-    // Getters and Setters
+    private int credits;
+
+    // Getters and setters
     public Long getId() {
         return id;
     }
@@ -31,11 +35,11 @@ public class Course {
         this.title = title;
     }
 
-    public Integer getCredits() {
+    public int getCredits() {
         return credits;
     }
 
-    public void setCredits(Integer credits) {
+    public void setCredits(int credits) {
         this.credits = credits;
     }
 }
