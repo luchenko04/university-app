@@ -1,4 +1,4 @@
-FROM openjdk:22-jdk
+FROM eclipse-temurin:22-jdk
 WORKDIR /app
 # Встановлюємо Maven
 RUN apt-get update && apt-get install -y maven
