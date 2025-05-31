@@ -35,7 +35,7 @@
 
 ### Деплой:
 - Проєкт розгорнутий на Render:  
-  👉 [https://university-app-4fny.onrender.com](https://university-app-4fny.onrender.com)
+[https://university-app-4fny.onrender.com](https://university-app-4fny.onrender.com)
 
 ---
 
